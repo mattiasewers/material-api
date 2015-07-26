@@ -1,0 +1,67 @@
+body{
+			margin: 0;
+			padding: 0;
+			font-family: 'Roboto', sans-serif;
+}
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+input[type="search"]{
+	-webkit-appearance: textfield;
+background-color: white;
+}
+.search{
+	font-weight: 300;
+	width: 300px;
+	display: block;
+	padding: 8px 8px 8px 50px;
+	box-shadow: 0px 1px 1.5px rgba(0,0,0,0.06),0px 1px 1px rgba(0,0,0,0.12);
+	background: #2196f3;
+	height: 45px;
+	-webkit-transition: all 200ms ease;
+	transition: all 200ms ease;
+	border: none;
+	font-size: 16px;
+	appearance: textfield;
+	-webkit-appearance: textfield;
+	outline: none;
+	border-radius: 3px;
+	margin-top: 5px;
+	color: grey;
+}
+
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+    position: absolute;
+    padding-left: 17px;
+    top: 15px;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
